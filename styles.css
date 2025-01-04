@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px  
+}
+
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.contributors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contributor img {
+    width: 30%;
+    border-radius: 50%
+} 
+
+.ingredients h2 {
+    text-align: left;
+    margin-left: 200px;
+}
+
+.ingredient {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.ingredient p {
+    flex: 1;
+    margin-right: 40px;
+    margin-left: 200px;
+    text-align: justify;
+}
+
+.ingredient img {
+    max-width: 200px;
+    margin-right: 200px;
+}
+
+#logo {
+    width: 20%;
+    height: auto;
+}
+
+#about-text {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
